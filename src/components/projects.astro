@@ -1,9 +1,9 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
-import moviesfordevs from "../../public/moviesfordevs.png";
-import velez from "../../public/velez.png";
+import SINDy from "../../public/SINDy.png";
+import Fluctuations from "../../public/Fluctuations.png";
+import Poincare from "../../public/Poincare.png";
+import Floquet from "../../public/Floquet.png";
 
 interface Project {
   title: string;
@@ -15,32 +15,32 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "MoviesForDevs",
-    image: moviesfordevs as ImageMetadata,
-    link: "https://github.com/gothsec/MoviesForDevs",
-    preview: "https://movies-for-devs.vercel.app",
-    status: "Deployed",
+    title: "Lyapunov Exponents & Poincaré Maps",
+    image: Poincare as ImageMetadata,
+    link: "https://github.com/MEGQGUITAR/ChaosTools",
+    preview: "https://github.com/MEGQGUITAR/ChaosTools/blob/main/img/Poincare_section_E=1.5_B=1.5_a=1.5_Lyapunov.png?raw=true",
+    status: "Deployed for 3-bodies problem with EM interactions",
   },
   {
-    title: "StockIn",
-    image: stockin as ImageMetadata,
-    link: "https://github.com/gothsec/stockin-demo",
-    preview: "https://stockin-demo.vercel.app",
-    status: "On Development",
+    title: "SINDy",
+    image: SINDy as ImageMetadata,
+    link: "https://github.com/MEGQGUITAR/SINDy",
+    preview: "https://github.com/MEGQGUITAR/SINDy/raw/main/SINDy.png",
+    status: "Deployed for 3-bodies problem with EM interactions",
   },
   {
-    title: "Svgl.app",
-    image: svgl as ImageMetadata,
-    link: "https://github.com/pheralb/svgl",
-    preview: "https://svgl.app",
-    status: "Contributor",
+    title: "Cosmology inflation",
+    image: Floquet as ImageMetadata,
+    link: "https://github.com/MEGQGUITAR/Floquet-Chart",
+    preview: "https://github.com/MEGQGUITAR/Floquet-Chart/blob/main/Floquet.png",
+    status: "Floquet maps and dynamical systems analysis in the early universe",
   },
   {
-    title: "Rifas Velez Web",
-    image: velez as ImageMetadata,
-    link: "https://github.com/Buga-Software/rifasvelez-web",
-    preview: "https://www.rifasvelez.com",
-    status: "Deployed",
+    title: "Fluctuations in the early universe",
+    image: Fluctuations as ImageMetadata,
+    link: "https://github.com/MEGQGUITAR/Fluctuations",
+    preview: "https://github.com/MEGQGUITAR/Fluctuations/raw/main/Fluctuations.png",
+    status: "T-Model inflation",
   },
 ];
 ---
@@ -117,7 +117,7 @@ const projects: Project[] = [
     </div>
     <a
       target="_blank"
-      href="https://github.com/Gothsec?tab=repositories"
+      href="https://github.com/MEGQGUITAR?tab=repositories"
       aria-label="GitHub"
       class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)] hover:scale-105"
     >

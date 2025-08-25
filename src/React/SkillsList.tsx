@@ -37,19 +37,22 @@ const SkillsList = () => {
   const [openItem, setOpenItem] = useState<string | null>(null);
 
   const skills = {
-    "Web Development": [
-      "Single Page Applications (SPAs)",
-      "Landing pages and business websites",
-      "Portfolio websites",
+    "Dynamical systems modeling": [
+      "3-body problem simulations: Exploring magnetic field influence",
+      "Chaos theory: Lyapunov exponents, Poincaré sections",
+      "Quantum analog: Bridging classical and quantum dynamics",
+      "PySINDy:Using Machine Learning to discover governing equations",
     ],
-    "Mobile Development": [
-      "Mobile-friendly web apps",
-      "React Native mobile apps",
+    "Cosmology Inflation": [
+      "Cosmic Inflation: Early universe exponential expansion",
+      "Reheating process: Energy transfer to particles",
+      "Metric fluctuations: Analyzing space-time ripples",
     ],
-    "UI/UX Design & Prototyping": [
-      "UI design with Figma & Canva",
-      "UX research & improvements",
-      "Prototyping for websites & mobile apps",
+    "Python & ML": [
+      "ython: Computational physics, data analysis",
+      "Key libraries: NumPy, SciPy, Matplotlib, Pandas, SymPy, Jupyter",
+      "Scientific ML: PySINDy application",
+      "Data-driven discovery: Finding equations from data",
     ],
   };
 
